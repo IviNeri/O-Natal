@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+	<link rel="icon" href="natal no ar.ico" type="image/x-icon">
+    <style>
+        body {font-family: Arial, sans-serif; margin: 0; 
+            background-image: url('natal.jpg'); /* Caminho da sua imagem de fundo */
+            background-size: center; /* Garante que a imagem cubra toda a tela */
+            background-position: center; /* Centraliza a imagem de fundo */
+            background-attachment: center; /* A imagem de fundo fica fixa ao rolar a página */}
+
+        /* Estilo do header */
+        header {background-color: #333; /* Cor de fundo */
+            color: white;
+            padding: 15px;	
+            display: flex;
+            justify-content: center;  /* Centraliza o conteúdo horizontalmente */
+            align-items: center;      /* Alinha o conteúdo verticalmente */}
+
+        /* Estilo para o logotipo */
+        header img {max-width: 100px; /* Define o tamanho máximo do logotipo */
+            height: auto; }
+
+        /* Estilo do footer */
+        footer { background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            bottom: 0;  /* Fica na parte inferior da página */
+            width: 100%;  /* Garante que o footer ocupe toda a largura */
+            z-index: 1000;  /* Garante que o footer fique sobre o conteúdo */ 
+			margin-top: 20px; /* Um pequeno espaço entre o conteúdo e o footer */}
+
+        /* Estilo da navegação */
+        nav {background-color: #444;
+            text-align: center;
+            padding: 10px;}
+
+        nav a { color: white;
+            text-decoration: none;
+            margin: 0 15px;}
+
+        nav a:hover {text-decoration: underline;}
+
+        /* Estilo da galeria */
+        .gallery {display: flex; 
+            flex-wrap: wrap; 
+            gap: 20px; 
+            justify-content: center; 
+            padding: 20px; 
+            background-color: #333 /* Fundo branco semi-transparente para destacar as imagens */
+            border-radius: 8px; /* Arredonda as bordas da galeria */}
+		div p {color: white; /* Altere a cor para o que desejar, por exemplo, #ffcc00 para amarelo */}
+		
+
+        .gallery img {max-width: 200px;  /* largura */ 
+            border: 4px solid green; /* Borda verde */
+            border-radius: 8px; /* Arredonda as bordas das imagens */}
+
+        /* Estilo das divs que contém a imagem e o texto */
+        div {
+            display: inline-block;
+            width: 200px;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Estilo para as imagens dentro das divs */
+        .gallery img {
+            width: 100%;  /* Faz a imagem ocupar toda a largura disponível da div */
+            height: auto;  /* Mantém a proporção da imagem */
+            border-radius: 8px; /* Borda arredondada */
+        }
+
+        /* Estilo para os textos das divs */
+        div p {
+            color: white;
+            margin-top: 10px;  /* Adiciona um espaço entre a imagem e o texto */
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="natal no ar.png" alt="Logotipo">
+    </header>
+    <nav>
+        <a href="Index.html">Menu</a>
+        <a href="Galeria.html">Galeria</a>
+        <a href="Vídeo e Localização.html">O natal</a>
+        <a href="Cadastro.html">Se cadastre</a>
+    </nav>
+    <section class="gallery">
+        <div><img src="natal em família.jpg" alt="Descrição 3"><p>O Natal é uma ótima oportunidade para passar tempo com a família e amigos, criando memórias especiais. As pessoas costumam se reunir para compartilhar uma refeição, trocar presentes e celebrar a companhia uns dos outros.</p></div>
+		<div><img src="troca de presentes.jpg" alt="Descrição 3"><p>Tradicionalmente, as pessoas trocam presentes no Natal para simbolizar o amor e a generosidade. Este gesto pode ser uma forma de mostrar apreço e carinho pelas pessoas especiais em sua vida.</p></div>
+		<div><img src="decoração brasil.jpg" alt="Descrição 3"><p>Muitas famílias decoram suas casas com árvores de Natal, luzes coloridas, guirlandas, presépios e outros enfeites. Isso ajuda a criar um ambiente festivo e acolhedor para o período natalino.</p></div>
+		<div><img src="missa de natal.jpg" alt="Descrição 3"><p>Para aqueles com uma fé cristã, a missa de Natal ou cultos religiosos são uma parte importante da celebração. É um momento para refletir sobre o nascimento de Jesus e o significado espiritual do Natal.</p></div>
+		<div><img src="ajud.jpg" alt="Descrição 3"><p>O Natal é também um momento para praticar a solidariedade e a caridade. Muitas pessoas doam roupas, alimentos ou tempo para ajudar aqueles que estão em situação de vulnerabilidade. Isso pode incluir a participação em campanhas de arrecadação ou ajudar em abrigos e instituições de caridade.</p></div>
+		<div><img src="ceia real.jpg" alt="Descrição 3"><p>A ceia de Natal é um dos principais momentos de celebração, e muitas famílias se reúnem para preparar uma refeição especial. Os pratos variam de acordo com as tradições culturais, mas geralmente incluem carnes assadas, doces, panetones, rabanadas e outras delícias típicas.</p></div>
+		<div><img src="filmes de natal.jpg" alt="Descrição 3"><p>Muitos aproveitam o Natal para assistir a filmes clássicos como “Esqueceram de Mim”, “O Grinch”, “Milagre na Rua 34” e outros especiais de Natal. Esta é uma ótima forma de se conectar com o espírito natalino de maneira leve e divertida.</p></div>
+		<div><img src="não sei onde é.jpg" alt="Descrição 3"><p>Em muitas cidades, há eventos e festivais de Natal, como feiras, mercados, apresentações de Natal e encenações de presépios vivos. Participar desses eventos pode ser uma maneira de se envolver com a comunidade e celebrar o Natal de forma alegre e festiva.</p></div>
+		<div><img src="viajar.jpg" alt="Descrição 3"><p>Para alguns, o Natal é uma oportunidade para viajar e explorar novos lugares, seja visitando parentes ou aproveitando um período de descanso em um destino especial. Viajar pode proporcionar novas experiências e criar lembranças inesquecíveis.</p></div>
+		<div><img src="amigo secreto [.jpg" alt="Descrição 3"><p>Essa tradição, que consiste em sortear nomes e trocar presentes de forma anônima, é muito popular durante o Natal, seja entre amigos ou colegas de trabalho. A diversão está em tentar adivinhar quem é o amigo secreto e na surpresa do presente.</p></div>
+		<div><img src="uva passa no arroz.jpg" alt="Descrição 3"><p>Preparar receitas tradicionais de Natal, como biscoitos, doces e sobremesas típicas da época, é uma maneira de resgatar memórias de infância ou criar novas tradições gastronômicas familiares.</p></div>
+		<div><img src="descansar neé.jpg" alt="Descrição 3"><p>Algumas pessoas gostam de aproveitar os feriados de Natal para fazer passeios ao ar livre, seja em um parque, na praia ou em locais mais tranquilos, para desfrutar da natureza e se conectar com a serenidade do fim de ano.</p></div>
+		
+		
+    </section>
+    <footer>
+        <p>&copy Criado por Evelyn Neri - 2024</p>
+    </footer>
+</body>
+</html>
